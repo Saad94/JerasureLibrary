@@ -132,7 +132,7 @@ int main (int argc, char **argv) {
 
 	printf("\nFilename: %s\n", argv[1]);
 	printf("Coding Technique: cauchy_good\n");
-	printf("Input desired size of file segments (in MB): ");
+	printf("Input desired size of file segments (in Bytes): ");
 	scanf("%d", &_size);
 	printf("Input codingFactor: ");
 	scanf("%d", &codingFactor);
